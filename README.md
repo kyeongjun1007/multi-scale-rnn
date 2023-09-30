@@ -3,12 +3,12 @@ Pytorch implementation of Multi-Scale Recurrent Neural Networks (MSRNN).
 
 ## Getting Started
 Installation:
-'''python
+```python
 $ pip3 install -r requirements.txt
-'''
+```
 
 ## Example
-'''python
+```python
 import msrnn
 import torch
 
@@ -30,4 +30,4 @@ input = torch.randn(2, 30, n_input)
 output, hidden = model(input)
 # output : list of outputs from each layer (length of output is n_layers)
 # hidden : list of hiddens from each layer (length of hidden is n_layers)
-'''
+```
